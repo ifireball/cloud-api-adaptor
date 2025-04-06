@@ -18,7 +18,7 @@ else ifeq ($(ARCH),s390x)
 	PROTOC_ARCH := s390_64
 else ifeq ($(ARCH),ppc64le)
 	TARGET_ARCH := ppc64le
-	PROTOC_ARCH := ppc64le_64
+	PROTOC_ARCH := ppcle_64
 endif
 
 # Default is dev build. To create release build set RELEASE_BUILD=true
